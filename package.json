@@ -1,0 +1,20 @@
+{
+  "name": "improving-public-sessions",
+  "version": "1.0.0",
+  "description": "Public practices to share with improvers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wareor/improving-public-sessions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wareor/improving-public-sessions/issues"
+  },
+  "homepage": "https://github.com/wareor/improving-public-sessions#readme"
+}
