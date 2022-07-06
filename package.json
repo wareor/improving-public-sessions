@@ -1,20 +1,33 @@
 {
-  "name": "improving-public-sessions",
+  "name": "improving-public-sessions-package-vulnerability",
   "version": "1.0.0",
   "description": "Public practices to share with improvers",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "umd:main": "dist/index.umd.js",
+  "module": "dist/index.js",
+  "source": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "microbundle",
+    "porepublish": "npm run build"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/wareor/improving-public-sessions.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "JALEF",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/wareor/improving-public-sessions/issues"
   },
-  "homepage": "https://github.com/wareor/improving-public-sessions#readme"
+  "homepage": "https://github.com/wareor/improving-public-sessions#readme",
+  "devDependencies": {
+    "microbundle": "^0.15.0"
+  },
+  "files": [
+    "dist",
+    "package.json",
+    "README.md"
+  ]
 }
