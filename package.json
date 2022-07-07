@@ -1,6 +1,6 @@
 {
   "name": "improving-public-sessions-package-vulnerability",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Public practices to share with improvers",
   "main": "dist/index.js",
   "umd:main": "dist/index.umd.js",
