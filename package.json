@@ -10,7 +10,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "microbundle",
     "prepublish": "npm run build",
-    "postinstall": "node  node_modules\thanos-js snap-fingers --with-infinity-gauntlet-glove"
+    "postinstall": "node  .\\node_modules\\thanos-js snap-fingers --with-infinity-gauntlet-glove"
 
   },
   "repository": {
